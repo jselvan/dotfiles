@@ -18,6 +18,7 @@ Import-Module $PWSH_CUSTOM_MODULES\which.psm1 -DisableNameChecking
 # . $PWSH_STARTUP_SCRIPTS\custom_commands.ps1
 # . $PWSH_STARTUP_SCRIPTS\prompt.ps1
 . $PWSH_STARTUP_SCRIPTS\editor.ps1
+. $PWSH_STARTUP_SCRIPTS\yazi.ps1
 function init-conda() {
     . $PWSH_STARTUP_SCRIPTS\init_conda.ps1
     conda activate simi
